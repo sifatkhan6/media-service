@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Service from '../Service/Service';
 
 const Services = () => {
 
@@ -12,7 +13,13 @@ const Services = () => {
 
     return (
         <div>
-            <h2>Services: {services.length}</h2>
+            <h2 className='text-center mt-5'>Services</h2>
+            {
+                services.map(service => <Service
+                key={service.id}
+                service={service}
+                ></Service>)
+            }
         </div>
     );
 };

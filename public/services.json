@@ -4,20 +4,20 @@
         "name": "Photoshoot",
         "price": "500",
         "description": "I am not a gorib Model.",
-        "img": ""
+        "img": "https://i.ibb.co/d4pGHmQ/photo.jpg"
     },
     {
         "id": "2",
         "name": "Music Video",
         "price": "1500",
         "description": "Your music video will be super hit.",
-        "img": ""
+        "img": "https://i.ibb.co/vkd3NT5/Music.jpg"
     },
     {
         "id": "3",
         "name": "Wedding Dance",
         "price": "1000",
         "description": "I am ready to make your wedding party more enjoyable.",
-        "img": ""
+        "img": "https://i.ibb.co/VwzYdG4/Dance.jpg"
     }
 ]
