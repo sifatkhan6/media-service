@@ -1,7 +1,7 @@
 # NaamChara Model
 
 ### Live site link
-https://astonishing-khapse-f2195a.netlify.app
+https://poetic-bombolone-64c566.netlify.app/
 
 ### Private repo link
 https://github.com/programming-hero-web-course-4/independent-service-provider-sifatkhan6
