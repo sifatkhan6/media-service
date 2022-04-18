@@ -3,7 +3,7 @@ import sifat from '../../images/sifat.png'
 
 const About = () => {
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5 col-sm-12'>
             <div className='row'>
                 <div className='col d-flex flex-column justify-content-center align-items-center'>
                     <h2>Hi.. I am Sifat Khan</h2>

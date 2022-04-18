@@ -4,6 +4,7 @@ import Services from './Services/Services';
 import Model1 from '../../images/Model1.png';
 import Model2 from '../../images/Model2.png';
 import Model3 from '../../images/Model3.png';
+import About from '../About/About';
 
 const Home = () => {
     return (
@@ -48,6 +49,7 @@ const Home = () => {
                 </Carousel>
             </section>
             <Services></Services>
+            <About></About>
         </div>
     );
 };
