@@ -3,14 +3,14 @@
         "id": "1",
         "name": "Photoshoot",
         "price": "500",
-        "description": "I am not a gorib Model.",
+        "description": "I am not a gorib Model. You have to pay huge",
         "img": "https://i.ibb.co/d4pGHmQ/photo.jpg"
     },
     {
         "id": "2",
         "name": "Music Video",
         "price": "1500",
-        "description": "Your music video will be super hit.",
+        "description": "Your music video will be super hit. Just hire me.",
         "img": "https://i.ibb.co/vkd3NT5/Music.jpg"
     },
     {
