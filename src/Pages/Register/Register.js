@@ -11,7 +11,7 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
 
     const navigate = useNavigate();
 
@@ -43,10 +43,10 @@ const Register = () => {
                 <input type="email" name="email" id="" placeholder='Your Email address' required />
 
                 <input type="password" name="password" id="" placeholder='Password' required />
-                <input type="submit" value="Register" />
+                <input className='w-50 mx-auto d-block btn btn-dark mt-4' type="submit" value="Register" />
 
             </form>
-            <p>Already user? <Link to="/login" className='text-primary text-decoration-none' onClick={navigateLogin}> Login</Link></p>
+            <p className='text-center'>Already user? <Link to="/login" className='text-primary text-decoration-none' onClick={navigateLogin}> Login</Link></p>
         </div>
     );
 };
